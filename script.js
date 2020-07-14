@@ -20,9 +20,7 @@ var special = confirm("Would you like special characters?");
 
 var numeric = confirm("Would you like numeric characters?");
 
-
 var lowercase = confirm("Use lowercase letters (a, b, c, etc...)");
-
 
 var upperCase = confirm("use UPPERCASE LETTERS?");
 
@@ -61,7 +59,7 @@ return password;
 
 
 };
-// generatePassword();
+
 function writePassword() {
     var password = generatePassword();
     var passwordText = document.querySelector('#password');
